@@ -1,0 +1,108 @@
+/* ------ */
+/* Common */
+/* ------ */
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+html, body, h1, h2, h3 {
+  font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+h1 { font-size: 2em; font-weight: bold; margin: 20px 0; }
+h2 { font-size: 1.5em; font-weight: bold; margin: 14px 0; }
+h3 { font-size: 1.17em; font-weight: bold; margin: 10px 0; }
+
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.content {
+  margin: 0 auto;
+  text-align : center;
+  width: 880px;
+}
+
+.footer {
+  clear: both;
+  margin: 20px auto;
+  padding: 20px 0;
+  text-align : center;
+  width: 600px;
+}
+
+.clear {
+  clear: both;
+}
+
+#galleryFooter {
+  border: none;
+  padding: none;
+  margin: none;
+}
+
+/* ---------- */
+/* Index.html */
+/* ---------- */
+
+.index {
+  height: 700px;
+}
+
+.index a img {
+  border-width: 10px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.index .manon a:hover {
+  color: #FF69B4;
+}
+
+.index .manon a:hover img {
+  border-color: #FF69B4;
+}
+
+.index .mathys a:hover {
+  color: #8BD2F0;
+}
+
+.index .mathys a:hover img {
+  border-color: #8BD2F0;
+}
+
+.index .box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  height: 600px;
+  width: 400px;
+}
+
+.index .box.manon {
+  float: left;
+}
+
+.index .box.mathys {
+  float: right;
+}
+
+/* ------------------------ */
+/* Manon.html / Mathys.html */
+/* ------------------------ */
+
+.gallery .square-thumb {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.gallery.manon h1 {
+  color: #FF69B4;
+}
+
+.gallery.mathys h1 {
+  color: #8BD2F0;
+}
